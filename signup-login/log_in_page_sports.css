@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url('https://i.pinimg.com/originals/2b/c9/70/2bc97013f49592c6d7d095ab5407d3bf.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    width:70%;
+    height:80%;
+    border-radius:5px;
+    border:1px dashed orange;
+    margin:50px 180px;
+    background: #042331;
+}
+.login_logo{
+    width: 400px;
+    height: 230px;
+    background: #042331;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
+.loginimglogo{
+    /* border: 45%; */
+    width: 130px;
+    height: 120px;
+    left: 27%;
+    top: 0%;
+    position: absolute;
+    border-radius: 100%;
+}
+.heading12 h2{
+    font-size: 30px;
+    background: -webkit-linear-gradient(blue,white,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 100px;
+    position: absolute;
+    padding-left: 30px;
+    color: blue;
+    font-family:"Times New Roman", Times, serif;
+}
+.heading12 h3{
+    font-size: 22px;
+    background: -webkit-linear-gradient(blue,white,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 155px;
+    position: absolute;
+    left: 80px;
+    color: blue;
+    font-family:"Times New Roman", Times, serif;
+}
+.loginbox{
+    width: 360px;
+    height: 220px; 
+    background: #042331;
+    color: #fff;
+    top: 38%;
+    left: 49%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 60px 0px;
+    border-radius: 20px;  
+    border: 1px solid yellow;
+}
+.login{
+    width: 100px;
+    height: 100px;
+    border: -50%;
+    position: fixed;
+    top: -50px;
+    left: 37%;
+}
+.loginbox input{
+    margin: 0;
+    margin-bottom: 35px;
+    text-align:left;
+    padding-left:20px;
+}
+.loginbox ul li i{
+    padding-right: 20px;
+    color: green;
+}
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 2px solid green;
+    border-top: 2px solid orange;
+    border-radius:15px;
+    background: transparent;
+    outline: none;
+    height: 44px;
+    width:240px;
+    color: #fff;
+    font-size: 16px;
+    /*border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue; */
+    /*padding-left:55px;*/
+}
+.loginbox input[type="text"]::-webkit-input-placeholder {
+    text-align: left;
+    padding-left:10px;
+}
+.loginbox input[type="password"]::-webkit-input-placeholder {
+    text-align: left;
+    padding-left:10px;
+}
+.but1{
+    font-size: 16px;
+    color: white;
+    left: 90px;
+    top: 270px;
+    position: absolute;
+    background: #4CAF50;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding:10px 80px;
+}
+.but1:hover{
+    cursor: pointer;
+}
+sup{
+    color: red;
+    font-size:20px;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;
+    color: green;
+    top: 205px;
+    left: 190px;
+    position: fixed;
+}
+.loginbox a:hover
+{
+    cursor: pointer;
+    color: blue;
+}
+.loginbox input[type="checkbox"]
+{
+    width: 30px;
+    height: 20px;
+    left: 260px;
+    top: 159px;
+    position: absolute;
+}
+header{
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    background: green;
+}
+header ul li{
+    display: inline-flex;
+    color: white;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 100px;
+}
+.message{
+    top:45px;
+    left:100px;
+    position:fixed;
+    color:red;
+    font-size:20px;
+    font-style:italic;
+}
+.eye_slash i{
+    left: 300px;
+    top: 171px;
+    position:absolute;
+    margin-right:30px;
+    cursor:pointer;
+}
+.imagechild{
+    width: 300px;
+    height: 20px;
+    background: #042331;
+    position: absolute;
+    left: 7%;
+    top: 73%;
+}
+.imagechild i{
+    color:green;
+}
