@@ -66,7 +66,7 @@
         }
         else
         {
-            echo '<script>swal("Something wrong!!","Please login to the website to buy the Products","Danger")</script>';
+            echo '<script>swal("Something wrong!!","Please login to the website to buy the Products","error")</script>';
         }   
     }
     
