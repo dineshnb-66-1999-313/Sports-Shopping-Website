@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="container-fluid text-center bg-secondary py-2 mb-0">
-            &copy;2020. All Rights Are Reserved.
+            &copy;2020. All Rights Are Reserved
         </div>
     </footer>
 </body>
